@@ -1,0 +1,286 @@
+/*-------Importante-------*/
+/*Root*/
+:root{
+    --Blue: #2679F6;
+    --Red: #e83e36;
+    --Black: #000000;
+    --Black-Light: #1F1F21;
+    --Whithe: #FFFFFF;
+}
+/*Fin Root*/
+
+/*Selector Universal*/
+*{
+    font-family: 'Poppins', sans-serif;
+}
+/*Fin Selector Universal*/
+/*-------Fin Importante-------*/
+
+/*-------Scroll Bar-------*/
+::-webkit-scrollbar { width: 6px; }
+
+::-webkit-scrollbar-track { background: var(--Black-Light);}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: var(--Blue);
+}
+/*-------Fin Scroll Bar-------*/
+
+/*-------Loader-------*/
+.carga{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: no-repeat var(--Black);
+    z-index: 10000;
+}
+
+.carga img{
+    width: 250px;
+    height: 250px;
+    z-index: 10000;
+}
+/*-------Fin Loader-------*/
+
+/*-------Componentes-------*/
+/*Nav*/
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu a{
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--whithe);
+    position: relative;
+}
+
+.nav-item a::after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background: #2679F6;
+    transition: .3s;
+}
+
+.nav-item a:hover::after{
+    width: 100%;
+}
+
+.nav-item-1{
+    margin: 0 1.0rem;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.nav-item-1 a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.nav-item-1 a::after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: #2679F6;
+    transition: .3s;
+}
+
+.nav-link{
+    padding: 0;
+}
+/*Fin Nav*/
+
+/*Footer*/
+.footer{
+    color: var(--White);
+}
+
+.logo-footer img{
+    width:  150px;
+    height: 150px;
+}
+
+.social-container{
+    display: flex;
+    height: 30px;
+}
+
+.social-link{
+    height: 100%;
+    width: 30px;
+    background-image: url(../img/icon-svg/instagram-logo.svg);
+    border: 1px solid var(--Whithe);
+    border-radius: 6px;
+    background-size: 40%;
+    background-position: center;
+    margin-right: 1rem;
+    background-repeat: no-repeat;
+}
+
+footer .social-link:nth-of-type(2){
+    background-image: url(../img/icon-svg/linkedin-logo.svg);
+}
+
+footer .social-link:nth-of-type(3){
+    background-image: url(../img/icon-svg/github-icon.svg);
+}
+/*Fin Footer*/
+
+/*Botones*/
+.btn-primary{
+    background: var(--Blue) !important;
+    border: var(--Blue) !important;
+}
+
+.btn-secondary{
+    background: var(--Red) !important;
+    border: var(--Red) !important;
+}
+
+.btn-dark{
+    background: var(--Black) !important;
+    border: var(--Black) !important;
+}
+/*Fin Botones*/
+
+/*Texto*/
+.gradient{
+    background: linear-gradient(90deg, #E83E36 28.47%, #2679F6 94.43%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.tx-negro{
+    color: var(--Black) !important;
+}
+
+.tx-gris{
+    color: var(--Black-Light) !important;
+}
+
+.tx-azul{
+    color: var(--Blue) !important;
+}
+
+.tx-rojo{
+    color: var(--Red) !important;
+}
+
+.tx-blanco{
+    color: var(--Whithe) !important;
+}
+/*Fin Texto*/
+
+/*Span*/
+.span-azul{
+    color: var(--Blue) !important;
+}
+
+.span-rojo{
+    color: var(--Red) !important;
+}
+/*Fin Span*/
+
+/*Backgrounds*/
+.bg-negro{
+    background: var(--Black) !important;
+}
+
+.bg-gris{
+    background: var(--Black-Light) !important;
+}
+
+.bg-azul{
+    background: var(--Blue) !important;
+}
+
+.bg-rojo{
+    background: var(--Red) !important;
+}
+
+.bg-blanco{
+    background: var(--Whithe) !important;
+}
+/*Fin Backgrounds*/
+/*-------Fin Componentes-------*/
+
+/*-------CSS Index-------*/
+/*Header Principal*/
+.hero{
+    background: url(../img/image/Header.jpg) no-repeat;
+}
+
+.h1-hero{
+    font-size: 96px;
+    margin: 0;
+}
+
+.boton-header{
+    font-size: 14px;
+}
+
+.boton-header img{
+    width: 12px;
+}
+
+.hero-img{
+    height: 486.24px;
+}
+/*Fin Header Principal*/
+
+/*Section Mis Habilidades*/
+.tarjeta{
+    padding: 20px;
+}
+
+.tarjeta h5{
+    font-size: 16px;
+}
+
+.tarjeta p{
+    font-size: 14px;
+}
+
+.tarjeta img{
+    margin-bottom: 10px;
+}
+/*Fin Section Mis Habilidades*/
+
+/*Section Mis Proyecto*/
+/*Fin Section Mis Proyecto*/
+
+/*Section Trayectoria*/
+/*Fin Section Trayectoria*/
+
+/*Section Comentarios*/
+/*Fin Section Comentarios*/
+
+/*Section Contactame*/
+/*Fin Section Contactame*/
+/*-------Fin CSS Index-------*/
+
+/*-------CSS About-------*/
+/*-------Fin CSS About-------*/
+
+/*-------CSS Project-------*/
+/*-------Fin CSS Project-------*/
+
+/*-------CSS Contact-------*/
+/*-------Fin CSS Contact-------*/
