@@ -8,7 +8,7 @@
     <!--Fin Meta Tags-->
     <!--Descripcion-->
     <title>Hader Renteria 🧑🏿‍💻 | Frontend, JavaScript, Boostrap, CSS</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/img/logo/logo.png" type="image/x-icon">
     <!--Fin Descripcion-->
     <!--Links CSS-->
     <link rel="stylesheet" href="../assets/styles/normalize.css">
@@ -36,10 +36,10 @@
     <!--Fin Loader-->
 
     <!--Nav-->
-    <nav class="navbar sticky-top navbar-expand-lg bg-negro">
+    <nav class="navbar contenedor pb-1 pt-1 sticky-top navbar-expand-lg bg-negro">
         <div class="container">
           <!--Logo Nav-->
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="../src/index.html">
                 <img src="../assets/img/logo/logo.png" alt="Logo Hader Renteria" height="85" width="85">
             </a>
           <!--Fin Logo Nav-->
@@ -49,57 +49,112 @@
           </button>
           <!--Fin Icono Menu Responsive-->
           <!--Menu-->
-          <div class="collapse navbar-collapse align-items-center justify-content-center" id="navbarNav">
-            <ul class="navbar-nav  menu text-center">
+          <div class="collapse navbar-collapse align-items-end justify-content-end" id="navbarNav">
+            <ul class="navbar-nav  menu">
               <li class="nav-item-1">
-                <a class="nav-link tx-blanco p-0" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link tx-blanco p-0 me-4" aria-current="page" href="#">Inicio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link tx-blanco p-0 me-4" href="../src/about.html">Acerca de mi</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link tx-blanco p-0 me-4" href="#">Proyectos</a>
+                <a class="nav-link tx-blanco p-0 me-4" href="../src/blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link tx-blanco p-0 me-4" href="../src/project.html">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link tx-blanco p-0 me-4" href="../src/contact.html">Contáctame</a>
               </li>
             </ul>
           </div>
           <!--Fin Menu-->
-          <!--Boton-->
-          <a href="" class="btn btn-primary d-none d-sm-none d-md-block">Contáctame</a>
-          <!--Fin Boton-->
         </div>
     </nav>
     <!--Fin Nav-->
 
     <!--Header Principal-->
-    <header class="hero">
-        <div class="container">
-            <div class="row g-0">
-              <!--Texto-->
-              <div class="col-lg-6 d-flex">
-                  <div class="content mx-auto align-self-center texto-principal">
-                      <h1 class="fw-bold tx-blanco h1-hero">Hola! <img src="../assets/img/icon-svg/hello-icon.svg" alt=""></h1>
-                      <p class="lead tx-blanco fs-5">Mi nombre es Hader y <br>soy Frontend Developer.</p>
-                      <!--Botones-->
-                      <a href="#" class="btn btn-dark mb-5 boton-header">Ver Proyectos</a>
-                      <a href="#" class="btn btn-outline-light mb-5 boton-header">Descargar CV <img src="../assets/img/icon-svg/descarga-icon.svg"></a>
-                      <!--Fin Botones-->
-                  </div>
-              </div>
-              <!--Fin Texto-->
-              <!--Foto Hader-->
-              <div class="col-lg-6">
-                  <div class="content mx-auto align-self-center">
-                      <img src="../assets/img/image/hader-renteria.png" class="img-fluid hero-img">
-                  </div>
-              </div>
-              <!--Fin Foto Hader-->
+    <header class="header-principal contenedor pb-0">
+      <div class="container">
+        <div class="row g-0">
+          <div class="col-lg-6 d-flex">
+            <div class="content align-self-center">
+              <h1 class="texto-principal fw-bold tx-blanco">Hola!<img src="../assets/img/icon-svg/hello-icon.svg" alt=""></h1>
+              <p class="lead m-0 mb-2 tx-blanco">Mi nombre es Hader y <br>soy Frontend Developer.</p>
+              <a href="../src/registrate.html" class="btn mb-5 btn-dark tx-oscuro">Ver Proyectos</a>
+              <a href="https://youtu.be/N7Lw9WX8Cvw" class="btn mb-5 btn-outline-light tx-oscuro">Descargar CV<img src="../assets/img/icon-svg/descarga-icon.svg" alt="" width="20px" height="15px"></a>
             </div>
+          </div>
+
+          <div class="col-lg-6 d-flex d-none d-sm-none d-md-block">
+            <div class="content mx-auto align-items-center">
+              <img src="../assets/img/image/hader-renteria.png" loading="lazy" class="img-fluid" alt="">
+            </div>
+          </div>
+
         </div>
+      </div>
     </header>
     <!--Fin Header Principal-->
 
+    <!--Section -->
+    <section class="bg-negro contenedor">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+          <div class="col">
+              <div class="card shadow tarjeta bg-gris h-100 justify-content-center align-items-center">
+                <div class="card-body p-0">
+                  <div class="d-flex justify-content-center">
+                    <img src="../assets/img/icon-svg/mobile-logo.svg" alt="..." height="35">
+                  </div>
+                  <p class="card-text tx-blanco text-center m-0">1 año como</p>
+                  <h2 class="card-title gradient text-center fw-bold">Programador</h2>
+                </div>
+              </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow tarjeta bg-gris h-100 justify-content-center align-items-center">
+              <div class="card-body p-0">
+                <div class="d-flex justify-content-center">
+                  <img src="../assets/img/icon-svg/mobile-logo.svg" alt="..." height="35">
+                </div>
+                <p class="card-text tx-blanco text-center m-0">0 años</p>
+                <h2 class="card-title gradient text-center fw-bold">Trabajando</h2>
+              </div>
+            </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow tarjeta bg-gris h-100 justify-content-center align-items-center">
+            <div class="card-body p-0">
+              <div class="d-flex justify-content-center">
+                <img src="../assets/img/icon-svg/mobile-logo.svg" alt="..." height="35">
+              </div>
+              <p class="card-text tx-blanco text-center m-0">2 años como</p>
+              <h2 class="card-title gradient text-center fw-bold">Diseñador</h2>
+            </div>
+          </div>
+      </div>
+        </div>
+        <div class="card shadow bg-gris mt-3">
+          <div class="card-body">
+            <p class="card-text tx-blanco text-center m-0">Freelancer</p>
+            <h2 class="card-title gradient text-center fw-bold">Frontend Developer</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Fin Section -->
+
+    <!--Linea-->
+    <div>
+      <hr>
+    </div>
+    <!--Linea-->
+
     <!--Section Mis Habilidades-->
-    <section class="bg-oscuro">
+    <section class="bg-negro contenedor">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
@@ -114,7 +169,7 @@
               </div>
               <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <div class="card tarjeta bg-gris h-100">
+                    <div class="card card-2 tarjeta bg-gris h-100">
                       <div class="d-flex justify-content-start">
                           <img src="../assets/img/icon-svg/mobile-logo.svg" alt="..." height="35">
                       </div>
@@ -126,7 +181,7 @@
                   </div>
 
                 <div class="col">
-                  <div class="card tarjeta bg-gris h-100">
+                  <div class="card card-2 tarjeta bg-gris h-100">
                     <div class="d-flex justify-content-start">
                         <img src="../assets/img/icon-svg/code-logo.svg"  alt="..." height="35">
                     </div>
@@ -138,7 +193,7 @@
                 </div>
 
                 <div class="col">
-                  <div class="card tarjeta bg-gris h-100">
+                  <div class="card card-2 tarjeta bg-gris h-100">
                     <div class="d-flex justify-content-start">
                         <img src="../assets/img/icon-svg/user-logo.svg"  alt="..." height="35">
                     </div>
@@ -150,21 +205,20 @@
                 </div>
               </div>
               <div class="text-center mt-4">
-                <a href="" class="btn btn-primary fw-bold" style="font-size: 12px;
-                padding: 9px 25px;">Conoce mas de mi →</a>
+                <a href="" class="btn btn-primary fw-bold">Conoce mas de mi →</a>
               </div>
         </div>
     </section>
     <!--Fin Section Mis Habilidades-->
 
     <!--Linea-->
-    <div class="container">
-        <hr>
+    <div>
+      <hr>
     </div>
     <!--Linea-->
 
     <!--Section Mis Proyectos-->
-    <section class="oscuro">
+    <section class="bg-bg-negro contenedor">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
@@ -180,7 +234,7 @@
 
               <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col">
-                    <div class="card bg-gris shadow">
+                    <div class="card tarjeta p-0 bg-gris shadow">
                         <a href="">
                             <img src="..." class="card-img-top" alt="...">
                         </a>
@@ -196,7 +250,7 @@
                   </div>
 
                 <div class="col">
-                    <div class="card bg-gris shadow">
+                    <div class="card tarjeta p-0 bg-gris shadow">
                         <a href="">
                             <img src="..." class="card-img-top" alt="...">
                         </a>
@@ -212,7 +266,7 @@
                   </div>
 
                   <div class="col">
-                    <div class="card bg-gris shadow">
+                    <div class="card tarjeta p-0 bg-gris shadow">
                         <a href="">
                             <img src="..." class="card-img-top" alt="...">
                         </a>
@@ -228,7 +282,7 @@
                   </div>
 
                   <div class="col">
-                    <div class="card bg-gris shadow">
+                    <div class="card tarjeta p-0 bg-gris shadow">
                         <a href="">
                             <img src="..." class="card-img-top" alt="...">
                         </a>
@@ -244,21 +298,20 @@
                   </div>
               </div>
               <div class="text-center mt-4">
-                <a href="" class="btn btn-secondary fw-bold" style="font-size: 12px;
-                padding: 9px 25px;">Mira mas Proyecto →</a>
+                <a href="" class="btn btn-secondary fw-bold">Mira mas Proyecto →</a>
               </div>
         </div>
     </section>
     <!--Fin Section Mis Proyectos-->
 
     <!--Linea-->
-    <div class="container">
-        <hr>
+    <div>
+      <hr>
     </div>
     <!--Linea-->
 
     <!--Section Trayectoria-->
-    <section class="oscuro">
+    <section class="bg-negro contenedor">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
@@ -271,19 +324,91 @@
                   <!-- Fin Titulo-->
                 </div>
               </div>
-              
+              <div class="container align-self-center">
+                <div class="row d-flex align-items-center justify-content-between">
+        
+                  <div class="p-0 col-lg-6 d-flex justify-content-center align-items-center">
+                    <div class="content">
+                      <img src="../assets/img/imagenes/tu-dicides.png" loading="lazy" class="img-fluid"/>
+                    </div>
+                  </div>
+        
+                  <div class="p-0 col-lg-6 d-flex">
+                    <div class="align-self-center my-5 px-4">
+        
+                      <ul class="list-unstyled mb-0">
+                        <li class="d-flex mb-4">
+                          <p class="lead fw-bold d-flex step"><i class="fa fa-bookmark gradient"></i></p>
+                          <div class="ms-3">
+                            <p class="lead fw-bold tx-blanco m-0">
+                              Media Tecnica
+                            </p>
+                            <p class="text-muted">
+                              2022 - 2024.
+                            </p>
+                          </div>
+                        </li>
+                        <li class="d-flex mb-4">
+                          <p class="lead fw-bold d-flex step"><i class="fa fa-bookmark gradient"></i></p>
+                          <div class="ms-3">
+                            <p class="lead fw-bold tx-blanco m-0">
+                              Semillero Globant (Alianza Futuro)
+                            </p>
+                            <p class="text-muted">
+                              23 de abril 2022 - 15 de octubre 2022.
+                            </p>
+                          </div>
+                        </li>
+                        <li class="d-flex mb-4">
+                          <p class="lead fw-bold d-flex step"><i class="fa fa-bookmark gradient"></i></p>
+                          <div class="ms-3">
+                            <p class="lead fw-bold tx-blanco m-0">
+                              Curso Frontend con React.js
+                            </p>
+                            <p class="text-muted">
+                              26 de septiembre 2022 - 8 de octubre 2022.
+                            </p>
+                          </div>
+                        </li>
+                        <li class="d-flex mb-4">
+                          <p class="lead fw-bold d-flex step"><i class="fa fa-bookmark gradient"></i></p>
+                          <div class="ms-3">
+                            <p class="lead fw-bold tx-blanco m-0">
+                              Curso Frontend Developer Platzi
+                            </p>
+                            <p class="text-muted">
+                              2 de abril 2022 - 8 de abril 2022.
+                            </p>
+                          </div>
+                        </li>
+                        <li class="d-flex mb-4">
+                          <p class="lead fw-bold d-flex"><i class="fa fa-bookmark gradient"></i></p>
+                          <div class="ms-3">
+                            <p class="lead fw-bold tx-blanco m-0">
+                              Curso Frontend Developer Platzi
+                            </p>
+                            <p class="text-muted">
+                              2 de abril 2022 - 8 de abril 2022.
+                            </p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
     </section>
     <!--Fin Section Trayectoria-->
 
     <!--Linea-->
-    <div class="container">
-        <hr>
+    <div>
+      <hr>
     </div>
     <!--Linea-->
 
     <!--Section Comentarios-->
-    <section class="oscuro">
+    <section class="bg-negro contenedor">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
@@ -298,7 +423,7 @@
               </div>
               <div class="row">
                 <div class="col-lg-4">
-                    <div class="card bg-gris rounded shadow mb-4 mb-lg-0">
+                    <div class="card tarjeta bg-gris rounded shadow mb-4 mb-lg-0">
                         <div class="card-body mb-0 pb-0">
                             <p class="tx-blanco font-weight-bold m-0 p-0 my-3 fs-18 fw-500"
                                 style="line-height: 1.8;">
@@ -313,7 +438,7 @@
                 </div>
     
                 <div class="col-lg-4">
-                    <div class="card bg-gris oscuro rounded shadow mb-4 mb-lg-0">
+                    <div class="card tarjeta bg-gris bg-negro rounded shadow mb-4 mb-lg-0">
                         <div class="card-body mb-0 pb-0">
                             <p class="tx-blanco font-weight-bold m-0 p-0 my-3 fs-18 fw-500"
                                 style="line-height: 1.8;">
@@ -328,7 +453,7 @@
                 </div>
     
                 <div class="col-lg-4">
-                    <div class="card bg-gris rounded shadow mb-4 mb-lg-0">
+                    <div class="card tarjeta bg-gris rounded shadow mb-4 mb-lg-0">
                         <div class="card-body mb-0 pb-0">
                             <p class="tx-blanco font-weight-bold m-0 p-0 my-3 fs-18 fw-500"
                                 style="line-height: 1.8;">
@@ -347,13 +472,13 @@
     <!--Fin Section Comentarios-->
 
     <!--Linea-->
-    <div class="container">
-        <hr>
+    <div>
+      <hr>
     </div>
     <!--Linea-->
 
-    <!--Section Contactame-->
-    <section class="oscuro">
+    <!--Section Contáctame-->
+    <section class="bg-negro contenedor">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
@@ -366,18 +491,77 @@
                   <!-- Fin Titulo-->
                 </div>
               </div>
+              <div class="row g-0">
+                <div class="col-lg-6 d-flex">
+                  <!--Texto-->
+                    <div class="content mx-auto align-self-end me-5">
+                      <h2 class="fw-bold tx-blanco mb-3 text-start">Estoy listo para trabajar contigo<span class="text-primary">.</span></h2>
+                      <p class="text-contacatame text-start tx-blanco">Soy Diseñador, Developer actualmente vivo en Medellin, Colombia. Me agrada la idea de trabajar en equipo, pienso que es una manera de conectar con nuevas habilidades y de brindar mi conocimiento al equipo con el fin de mejorar la productividad en el desarrollo de algun producto digital. Me gusta ser un activo valioso en cualquier equipo en el que me desarrolle, por lo que estoy aprendiendo constantemente e investigando acerca de las nuevas tendencias.
+                      <br>
+                      <br>
+                      Trato de buscar todo el Feedback posible en los proyectos, con el fin de mejorar y poder hacer diseños que no solo sean atractivos esteticamente sino que sean accesibles y funcionales.</p>
+      
+                      <div class="text-start col- col-sm- ">
+                        <a href="mailto:haderrenteria13az@gmail.com" class="btn btn-primary ">haderrenteria13az@gmail.com →</a>
+                      </div>
+                    </div>
+                    <!--Fin Texto-->
+                </div>
+                <div class="col-lg-6 align-items-center justify-content-center">
+                  <div class="contact-form card bg-gris mt-3">
+                    <!--Formulario-->
+                      <form action="">
+                        <!--Input 1-->
+                <div class="row">
+                  <div class="col-lg-12 mb-4">
+                      <label for="inputEmail4" class="form-label tx-blanco">Tu Nombre</label>
+                      <input type="text" placeholder="Nombre" class="form-control form-control-lg fs-6">
+                  </div>
+              </div>
+            <!--Fin Input 1-->
+
+            <!--Input 2-->
+              <div class="row">
+                  <div class="col-lg-12 mb-4">
+                      <label for="inputEmail4" class="form-label tx-blanco">Tu Correo</label>
+                      <input type="email" placeholder="ejemplo@email.com" class="form-control form-control-lg fs-6">
+                  </div>
+              </div>
+            <!--Fin Input 2-->
+
+            <!--Input 3-->
+              <div class="row">
+                  <div class="col-lg-12 mb-4">
+                      <label for="inputEmail4" class="form-label tx-blanco">Tu Mensaje</label>
+                      <textarea placeholder="Hey.." class="form-control form-control-lg fs-6"></textarea>
+                  </div>
+              </div>
+            <!--Fin Input 3-->
+      
+                        <!--Boton-->
+                        <div class="d-grid gap-1">
+                          <button class="btn btn-secondary fw-bold" type="button">Enviar</button>
+                        </div>
+                        <!--Fin Boton-->
+      
+                      </form>
+                    <!--Fin Formulario-->
+                  </div>
+                </div>
+                
+              </div>
         </div>
     </section>
-    <!--Fin Section Contactame-->
+    <!--Fin Section Contáctame-->
 
     <!--Linea-->
-    <div class="container">
-        <hr>
+    <div>
+      <hr>
     </div>
     <!--Linea-->
 
     <!--Footer-->
-    <footer class="d-flex pt-5 pb-0 h-100 footer bg-negro">
+    <footer class="d-flex contenedor pt-5 pb-0 h-100 footer bg-negro">
         <div class="container align-self-center">
           <div class="row mb-3">
             <div class="col-lg-3 col-sm-6 my-4 logo-footer">
@@ -392,7 +576,7 @@
                   <a href="" class="text-muted text-decoration-none">Acerca de mi</a>
                 </li>
                 <li class="mb-1">
-                  <a href="" class="text-muted text-decoration-none">Contactame</a>
+                  <a href="" class="text-muted text-decoration-none">Contáctame</a>
                 </li>
                 <li class="mb-1">
                   <a href="" class="text-muted text-decoration-none">Proyectos</a>
@@ -414,7 +598,7 @@
   
             <!--Columna 3-->
             <div class="col-lg-3 col-sm-6 my-4">
-              <h5 class="fw-bold mb-3 tx-blanco">Contactame</h5>
+              <h5 class="fw-bold mb-3 tx-blanco">Contáctame</h5>
               <div class="social-container">
                 <a href="https://www.instagram.com/hader_renteria/" class="social-link" target="_blank"></a>
                 <a href="https://www.linkedin.com/in/hader-renteria-565119240/"

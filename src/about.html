@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Fin Meta Tags-->
     <!--Descripcion-->
-    <title>Hader Renteria 🧑🏿‍💻 | Frontend, JavaScript, Boostrap, CSS</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Hader Renteria 🧑🏿‍💻 | Sobre Mi</title>
+    <link rel="shortcut icon" href="../assets/img/logo/logo.png" type="image/x-icon">
     <!--Fin Descripcion-->
     <!--Links CSS-->
     <link rel="stylesheet" href="../assets/styles/normalize.css">
@@ -26,20 +26,547 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <!--Fin Font Awesome-->
 </head>
-<body>
+<body class="bg-negro">
     <!--Loader-->
     <div class="carga">
-        <img src="../assets/img/logo/logo.png" alt="">
+        <div class="d-flex justify-content-center align-self-center">
+            <img src="../assets/img/logo/logo.png" alt="">
+        </div>
     </div>
     <!--Fin Loader-->
 
     <!--Nav-->
+    <nav class="navbar contenedor pb-1 pt-1 sticky-top navbar-expand-lg bg-negro">
+        <div class="container">
+          <!--Logo Nav-->
+            <a class="navbar-brand" href="../src/index.html">
+                <img src="../assets/img/logo/logo.png" alt="Logo Hader Renteria" height="85" width="85">
+            </a>
+          <!--Fin Logo Nav-->
+          <!--Icono Menu Responsive-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!--Fin Icono Menu Responsive-->
+          <!--Menu-->
+          <div class="collapse navbar-collapse align-items-end justify-content-end" id="navbarNav">
+            <ul class="navbar-nav  menu">
+              <li class="nav-item">
+                <a class="nav-link tx-blanco p-0 me-4" aria-current="page" href="../src/index.html">Inicio</a>
+              </li>
+              <li class="nav-item-1">
+                <a class="nav-link tx-blanco p-0 me-4" href="#">Acerca de mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link tx-blanco p-0 me-4" href="../src/blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link tx-blanco p-0 me-4" href="../src/project.html">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link tx-blanco p-0 me-4" href="../src/contact.html">Contáctame</a>
+              </li>
+            </ul>
+          </div>
+          <!--Fin Menu-->
+        </div>
+    </nav>
     <!--Fin Nav-->
 
-    <!---->
-    <!--Fin-->
+    <!--Section Quien Soy-->
+    <section class="contenedor sobre-mi">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-md-6 mb-md-0">
+                  <img src="../assets/img/image/Photo(BLANCO 1.2).jpg" class="rounded" alt="..." height="400">
+                </div>
+                <div class="col-md-6">
+                  <h1 class="tx-blanco fw-bold">Hader Renteria</h1>
+                  <p class="tx-blanco">Soy un estudiante de grado 10, Hace unos años empece a adquirir conocimiento en diseño de marca y creación de contenido audiovisual como un hobby. En el presente año vengo aprendiendo desarrollo web en la institución SENA en Colombia y vi que esto es lo que me apasiona y verdaderamente estoy obsesionado con esto, en un futuro me gustaría obtener un titulo apegado a el desarrollo web y al diseño grafico. <br>
+                  <br> 
+                  Trato de buscar siempre informacion para mejorar dia tras dia en cada uno de los proyectos que haga en un futuro con el fin de ser uno de los mejores.
+                  </p>
+                  <a href="#" class="btn btn-primary">Mis Redes Sociales →</a>
+                </div>
+              </div>
+        </div>
+    </section>
+    <!--Fin Section Quien Soy-->
+
+    <!--Linea-->
+    <div>
+      <hr>
+    </div>
+    <!--Linea-->
+
+    <!--Section Algunas De Mis Habilidades-->
+    <section class="bg-negro contenedor">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                  <!--Titulo-->
+                  <div class="section-title">
+                    <h2 class="fw-bold mb-4 mt-3 gradient">
+                      Algunas de mis Habilidades
+                    </h2>
+                  </div>
+                  <!-- Fin Titulo-->
+                </div>
+              </div>
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card card-2 tarjeta bg-gris h-100">
+                      <div class="d-flex justify-content-start">
+                          <img src="../assets/img/icon-svg/mobile-logo.svg" alt="..." height="35">
+                      </div>
+                      <div class="card-body p-0">
+                        <h5 class="card-title fw-bold tx-blanco">Responsive design</h5>
+                        <p class="card-text tx-blanco">Con mi experiencia en patrones de diseño responsive tengo una visión clara acerca de Responsive design para implementarlos de manera efectiva en cualquier proyecto.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                <div class="col">
+                  <div class="card card-2 tarjeta bg-gris h-100">
+                    <div class="d-flex justify-content-start">
+                        <img src="../assets/img/icon-svg/code-logo.svg"  alt="..." height="35">
+                    </div>
+                    <div class="card-body p-0">
+                      <h5 class="card-title fw-bold tx-blanco">HTML y CSS</h5>
+                      <p class="card-text tx-blanco">Tengo conocimientos basicos y bien fundamentados de html y css, lo que me permite tener un panorama mas claro a la hora de tirar codigo.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card card-2 tarjeta bg-gris h-100">
+                    <div class="d-flex justify-content-start">
+                        <img src="../assets/img/icon-svg/user-logo.svg"  alt="..." height="35">
+                    </div>
+                    <div class="card-body p-0">
+                      <h5 class="card-title fw-bold tx-blanco">Cooworking</h5>
+                      <p class="card-text tx-blanco">Trato de ser un activo valioso en el equipo que esté trabajando, aportando mis conocimientos y material que optimice el flujo de trabajo en el desarrollo del proyecto.</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col">
+                  <div class="card card-2 tarjeta bg-gris h-100">
+                    <div class="d-flex justify-content-start">
+                        <img src="../assets/img/icon-svg/user-logo.svg"  alt="..." height="35">
+                    </div>
+                    <div class="card-body p-0">
+                      <h5 class="card-title fw-bold tx-blanco">Cooworking</h5>
+                      <p class="card-text tx-blanco">Trato de ser un activo valioso en el equipo que esté trabajando, aportando mis conocimientos y material que optimice el flujo de trabajo en el desarrollo del proyecto.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card card-2 tarjeta bg-gris h-100">
+                    <div class="d-flex justify-content-start">
+                        <img src="../assets/img/icon-svg/user-logo.svg"  alt="..." height="35">
+                    </div>
+                    <div class="card-body p-0">
+                      <h5 class="card-title fw-bold tx-blanco">Cooworking</h5>
+                      <p class="card-text tx-blanco">Trato de ser un activo valioso en el equipo que esté trabajando, aportando mis conocimientos y material que optimice el flujo de trabajo en el desarrollo del proyecto.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card card-2 tarjeta bg-gris h-100">
+                    <div class="d-flex justify-content-start">
+                        <img src="../assets/img/icon-svg/user-logo.svg"  alt="..." height="35">
+                    </div>
+                    <div class="card-body p-0">
+                      <h5 class="card-title fw-bold tx-blanco">Cooworking</h5>
+                      <p class="card-text tx-blanco">Trato de ser un activo valioso en el equipo que esté trabajando, aportando mis conocimientos y material que optimice el flujo de trabajo en el desarrollo del proyecto.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <!--Fin Section Algunas De Mis Habilidades-->
+
+    <!--Linea-->
+    <div>
+      <hr>
+    </div>
+    <!--Linea-->
+
+    <!--Section Sofware De Diseño Que Manejo-->
+    <section class="bg-negro contenedor">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                  <!--Titulo-->
+                  <div class="section-title">
+                    <h2 class="fw-bold mb-4 mt-3 gradient">
+                      Algunas de mis Habilidades
+                    </h2>
+                  </div>
+                  <!-- Fin Titulo-->
+                </div>
+              </div>
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card card-2 tarjeta bg-gris h-100">
+                      <div class="d-flex justify-content-start">
+                          <img src="../assets/img/icon-svg/mobile-logo.svg" alt="..." height="35">
+                      </div>
+                      <div class="card-body p-0">
+                        <h5 class="card-title fw-bold tx-blanco">Responsive design</h5>
+                        <p class="card-text tx-blanco">Con mi experiencia en patrones de diseño responsive tengo una visión clara acerca de Responsive design para implementarlos de manera efectiva en cualquier proyecto.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                <div class="col">
+                  <div class="card card-2 tarjeta bg-gris h-100">
+                    <div class="d-flex justify-content-start">
+                        <img src="../assets/img/icon-svg/code-logo.svg"  alt="..." height="35">
+                    </div>
+                    <div class="card-body p-0">
+                      <h5 class="card-title fw-bold tx-blanco">HTML y CSS</h5>
+                      <p class="card-text tx-blanco">Tengo conocimientos basicos y bien fundamentados de html y css, lo que me permite tener un panorama mas claro a la hora de tirar codigo.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card card-2 tarjeta bg-gris h-100">
+                    <div class="d-flex justify-content-start">
+                        <img src="../assets/img/icon-svg/user-logo.svg"  alt="..." height="35">
+                    </div>
+                    <div class="card-body p-0">
+                      <h5 class="card-title fw-bold tx-blanco">Cooworking</h5>
+                      <p class="card-text tx-blanco">Trato de ser un activo valioso en el equipo que esté trabajando, aportando mis conocimientos y material que optimice el flujo de trabajo en el desarrollo del proyecto.</p>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+        </div>
+    </section>
+    <!--Fin Section Sofware De Diseño Que Manejo-->
+
+    <!--Linea-->
+    <div>
+      <hr>
+    </div>
+    <!--Linea-->
+
+    <!--Section Software De Desarrollo Que Manejo-->
+    <section class="bg-negro contenedor">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                  <!--Titulo-->
+                  <div class="section-title">
+                    <h2 class="fw-bold mb-4 mt-3 gradient">
+                      Algunas de mis Habilidades
+                    </h2>
+                  </div>
+                  <!-- Fin Titulo-->
+                </div>
+              </div>
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card card-2 tarjeta bg-gris h-100">
+                      <div class="d-flex justify-content-start">
+                          <img src="../assets/img/icon-svg/mobile-logo.svg" alt="..." height="35">
+                      </div>
+                      <div class="card-body p-0">
+                        <h5 class="card-title fw-bold tx-blanco">Responsive design</h5>
+                        <p class="card-text tx-blanco">Con mi experiencia en patrones de diseño responsive tengo una visión clara acerca de Responsive design para implementarlos de manera efectiva en cualquier proyecto.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                <div class="col">
+                  <div class="card card-2 tarjeta bg-gris h-100">
+                    <div class="d-flex justify-content-start">
+                        <img src="../assets/img/icon-svg/code-logo.svg"  alt="..." height="35">
+                    </div>
+                    <div class="card-body p-0">
+                      <h5 class="card-title fw-bold tx-blanco">HTML y CSS</h5>
+                      <p class="card-text tx-blanco">Tengo conocimientos basicos y bien fundamentados de html y css, lo que me permite tener un panorama mas claro a la hora de tirar codigo.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card card-2 tarjeta bg-gris h-100">
+                    <div class="d-flex justify-content-start">
+                        <img src="../assets/img/icon-svg/user-logo.svg"  alt="..." height="35">
+                    </div>
+                    <div class="card-body p-0">
+                      <h5 class="card-title fw-bold tx-blanco">Cooworking</h5>
+                      <p class="card-text tx-blanco">Trato de ser un activo valioso en el equipo que esté trabajando, aportando mis conocimientos y material que optimice el flujo de trabajo en el desarrollo del proyecto.</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col">
+                  <div class="card card-2 tarjeta bg-gris h-100">
+                    <div class="d-flex justify-content-start">
+                        <img src="../assets/img/icon-svg/user-logo.svg"  alt="..." height="35">
+                    </div>
+                    <div class="card-body p-0">
+                      <h5 class="card-title fw-bold tx-blanco">Cooworking</h5>
+                      <p class="card-text tx-blanco">Trato de ser un activo valioso en el equipo que esté trabajando, aportando mis conocimientos y material que optimice el flujo de trabajo en el desarrollo del proyecto.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card card-2 tarjeta bg-gris h-100">
+                    <div class="d-flex justify-content-start">
+                        <img src="../assets/img/icon-svg/user-logo.svg"  alt="..." height="35">
+                    </div>
+                    <div class="card-body p-0">
+                      <h5 class="card-title fw-bold tx-blanco">Cooworking</h5>
+                      <p class="card-text tx-blanco">Trato de ser un activo valioso en el equipo que esté trabajando, aportando mis conocimientos y material que optimice el flujo de trabajo en el desarrollo del proyecto.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card card-2 tarjeta bg-gris h-100">
+                    <div class="d-flex justify-content-start">
+                        <img src="../assets/img/icon-svg/user-logo.svg"  alt="..." height="35">
+                    </div>
+                    <div class="card-body p-0">
+                      <h5 class="card-title fw-bold tx-blanco">Cooworking</h5>
+                      <p class="card-text tx-blanco">Trato de ser un activo valioso en el equipo que esté trabajando, aportando mis conocimientos y material que optimice el flujo de trabajo en el desarrollo del proyecto.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <!--Fin Section Software De Desarrollo Que Manejo-->
+
+    <!--Linea-->
+    <div>
+      <hr>
+    </div>
+    <!--Linea-->
+
+    <!--Section Experiencia De Trabajo Y Educación-->
+    <section class="bg-negro contenedor">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                  <!--Titulo-->
+                  <div class="section-title">
+                    <h2 class="fw-bold mb-4 mt-3 gradient">
+                      Algunas de mis Habilidades
+                    </h2>
+                  </div>
+                  <!-- Fin Titulo-->
+                </div>
+              </div>
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card card-2 tarjeta bg-gris h-100">
+                      <div class="d-flex justify-content-start">
+                          <img src="../assets/img/icon-svg/mobile-logo.svg" alt="..." height="35">
+                      </div>
+                      <div class="card-body p-0">
+                        <h5 class="card-title fw-bold tx-blanco">Responsive design</h5>
+                        <p class="card-text tx-blanco">Con mi experiencia en patrones de diseño responsive tengo una visión clara acerca de Responsive design para implementarlos de manera efectiva en cualquier proyecto.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                <div class="col">
+                  <div class="card card-2 tarjeta bg-gris h-100">
+                    <div class="d-flex justify-content-start">
+                        <img src="../assets/img/icon-svg/code-logo.svg"  alt="..." height="35">
+                    </div>
+                    <div class="card-body p-0">
+                      <h5 class="card-title fw-bold tx-blanco">HTML y CSS</h5>
+                      <p class="card-text tx-blanco">Tengo conocimientos basicos y bien fundamentados de html y css, lo que me permite tener un panorama mas claro a la hora de tirar codigo.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card card-2 tarjeta bg-gris h-100">
+                    <div class="d-flex justify-content-start">
+                        <img src="../assets/img/icon-svg/user-logo.svg"  alt="..." height="35">
+                    </div>
+                    <div class="card-body p-0">
+                      <h5 class="card-title fw-bold tx-blanco">Cooworking</h5>
+                      <p class="card-text tx-blanco">Trato de ser un activo valioso en el equipo que esté trabajando, aportando mis conocimientos y material que optimice el flujo de trabajo en el desarrollo del proyecto.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <!--Fin Section Experiencia De Trabajo Y Educación-->
+
+    <!--Linea-->
+    <div>
+      <hr>
+    </div>
+    <!--Linea-->
+
+    <!--Section Herramientas De Trabajo-->
+    <section class="bg-negro contenedor">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-8">
+                <!--Titulo-->
+                <div class="section-title">
+                  <h2 class="fw-bold mb-4 mt-3 gradient">
+                    Algunas de mis Habilidades
+                  </h2>
+                </div>
+                <!-- Fin Titulo-->
+              </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                  <div class="card card-2 tarjeta bg-gris h-100">
+                    <div class="d-flex justify-content-start">
+                        <img src="../assets/img/icon-svg/mobile-logo.svg" alt="..." height="35">
+                    </div>
+                    <div class="card-body p-0">
+                      <h5 class="card-title fw-bold tx-blanco">Responsive design</h5>
+                      <p class="card-text tx-blanco">Con mi experiencia en patrones de diseño responsive tengo una visión clara acerca de Responsive design para implementarlos de manera efectiva en cualquier proyecto.</p>
+                    </div>
+                  </div>
+                </div>
+
+              <div class="col">
+                <div class="card card-2 tarjeta bg-gris h-100">
+                  <div class="d-flex justify-content-start">
+                      <img src="../assets/img/icon-svg/code-logo.svg"  alt="..." height="35">
+                  </div>
+                  <div class="card-body p-0">
+                    <h5 class="card-title fw-bold tx-blanco">HTML y CSS</h5>
+                    <p class="card-text tx-blanco">Tengo conocimientos basicos y bien fundamentados de html y css, lo que me permite tener un panorama mas claro a la hora de tirar codigo.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card card-2 tarjeta bg-gris h-100">
+                  <div class="d-flex justify-content-start">
+                      <img src="../assets/img/icon-svg/user-logo.svg"  alt="..." height="35">
+                  </div>
+                  <div class="card-body p-0">
+                    <h5 class="card-title fw-bold tx-blanco">Cooworking</h5>
+                    <p class="card-text tx-blanco">Trato de ser un activo valioso en el equipo que esté trabajando, aportando mis conocimientos y material que optimice el flujo de trabajo en el desarrollo del proyecto.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col">
+                <div class="card card-2 tarjeta bg-gris h-100">
+                  <div class="d-flex justify-content-start">
+                      <img src="../assets/img/icon-svg/user-logo.svg"  alt="..." height="35">
+                  </div>
+                  <div class="card-body p-0">
+                    <h5 class="card-title fw-bold tx-blanco">Cooworking</h5>
+                    <p class="card-text tx-blanco">Trato de ser un activo valioso en el equipo que esté trabajando, aportando mis conocimientos y material que optimice el flujo de trabajo en el desarrollo del proyecto.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card card-2 tarjeta bg-gris h-100">
+                  <div class="d-flex justify-content-start">
+                      <img src="../assets/img/icon-svg/user-logo.svg"  alt="..." height="35">
+                  </div>
+                  <div class="card-body p-0">
+                    <h5 class="card-title fw-bold tx-blanco">Cooworking</h5>
+                    <p class="card-text tx-blanco">Trato de ser un activo valioso en el equipo que esté trabajando, aportando mis conocimientos y material que optimice el flujo de trabajo en el desarrollo del proyecto.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card card-2 tarjeta bg-gris h-100">
+                  <div class="d-flex justify-content-start">
+                      <img src="../assets/img/icon-svg/user-logo.svg"  alt="..." height="35">
+                  </div>
+                  <div class="card-body p-0">
+                    <h5 class="card-title fw-bold tx-blanco">Cooworking</h5>
+                    <p class="card-text tx-blanco">Trato de ser un activo valioso en el equipo que esté trabajando, aportando mis conocimientos y material que optimice el flujo de trabajo en el desarrollo del proyecto.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text-center mt-4">
+              <a href="" class="btn btn-primary fw-bold">Contáctame →</a>
+            </div>
+      </div>
+    </section>
+    <!--Fin Section Herramientas De Trabajo-->
+
+    <!--Linea-->
+    <div>
+     <hr>
+    </div>
+    <!--Linea-->
 
     <!--Footer-->
+    <footer class="d-flex contenedor pt-5 pb-0 h-100 footer bg-negro">
+        <div class="container align-self-center">
+          <div class="row mb-3">
+            <div class="col-lg-3 col-sm-6 my-4 logo-footer">
+              <img src="../assets/img/logo/logo.png" alt="" />
+            </div>
+  
+            <!--Columna 1-->
+            <div class="col-lg-3 col-sm-6 my-4">
+              <h5 class="fw-bold mb-3 tx-blanco">Home</h5>
+              <ul class="list-unstyled">
+                <li class="mb-1">
+                  <a href="" class="text-muted text-decoration-none">Acerca de mi</a>
+                </li>
+                <li class="mb-1">
+                  <a href="" class="text-muted text-decoration-none">Contáctame</a>
+                </li>
+                <li class="mb-1">
+                  <a href="" class="text-muted text-decoration-none">Proyectos</a>
+                </li>
+              </ul>
+            </div>
+            <!--Fin Columna 1-->
+  
+            <!--Columna 2-->
+            <div class="col-lg-3 col-sm-6 my-4">
+              <h5 class="fw-bold mb-3 tx-blanco">Evindencias</h5>
+              <ul class="list-unstyled">
+                <li class="mb-1">
+                  <a href="https://docs.google.com/document/d/1sqLwSy_Q5eLTpqxP39eaf5vfEv-BDRwEl8VjLPTVrk0/edit?usp=sharing" class="text-muted text-decoration-none">Ir a Evindencias</a>
+                </li>
+              </ul>
+            </div>
+            <!--Fin Columna 2-->
+  
+            <!--Columna 3-->
+            <div class="col-lg-3 col-sm-6 my-4">
+              <h5 class="fw-bold mb-3 tx-blanco">Contáctame</h5>
+              <div class="social-container">
+                <a href="https://www.instagram.com/hader_renteria/" class="social-link" target="_blank"></a>
+                <a href="https://www.linkedin.com/in/hader-renteria-565119240/"
+                  class="social-link" target="_blank"></a>
+                <a href="https://github.com/haderrenteria13"
+                  class="social-link" target="_blank"></a>
+              </div>
+            </div>
+            <!--Fin Columna 3-->
+          </div>
+        </div>
+    </footer>
     <!--Fin Footer-->
 
     <!--JavaScript-->

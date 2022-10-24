@@ -48,6 +48,10 @@
 
 /*-------Componentes-------*/
 /*Nav*/
+.navbar{
+    padding: 0px 14%;
+}
+
 .menu{
     display: flex;
     align-items: center;
@@ -76,7 +80,6 @@
 }
 
 .nav-item-1{
-    margin: 0 1.0rem;
     font-size: 15px;
     font-weight: 500;
     font-style: normal;
@@ -109,6 +112,7 @@
 /*Footer*/
 .footer{
     color: var(--White);
+
 }
 
 .logo-footer img{
@@ -141,6 +145,12 @@ footer .social-link:nth-of-type(3){
     background-image: url(../img/icon-svg/github-icon.svg);
 }
 /*Fin Footer*/
+
+/*Contenedor*/
+.contenedor{
+    padding: 24px 12% !important;
+}
+/*Contenedor*/
 
 /*Botones*/
 .btn-primary{
@@ -223,11 +233,11 @@ footer .social-link:nth-of-type(3){
 
 /*-------CSS Index-------*/
 /*Header Principal*/
-.hero{
+.header-principal{
     background: url(../img/image/Header.jpg) no-repeat;
 }
 
-.h1-hero{
+.texto-principal{
     font-size: 96px;
     margin: 0;
 }
@@ -246,8 +256,8 @@ footer .social-link:nth-of-type(3){
 /*Fin Header Principal*/
 
 /*Section Mis Habilidades*/
-.tarjeta{
-    padding: 20px;
+.card-2{
+    padding: 16px;
 }
 
 .tarjeta h5{
@@ -267,16 +277,66 @@ footer .social-link:nth-of-type(3){
 /*Fin Section Mis Proyecto*/
 
 /*Section Trayectoria*/
+.step {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    color: var(--Blue);
+}
+
+.step::after {
+    content: "";
+    border-right: 2px solid var(--Blue);
+    opacity: .1;
+    height: 50px;
+    position: absolute;
+    top: 30px;
+}
 /*Fin Section Trayectoria*/
 
 /*Section Comentarios*/
 /*Fin Section Comentarios*/
 
 /*Section Contactame*/
+.contact-form{
+    background: var(--Black-Light);
+    height: 100%;
+    padding: 20px ;
+}
+
+.contact-form h3{
+    font-size: 18px;
+}
+
+.form-control{
+    padding: 0.9rem 1.5rem !important;
+    background: transparent !important;
+    border: 1px solid var(--Whithe) !important;
+    color: var(--Whithe) !important;
+}
+
+.form-control::placeholder{
+    font-weight: 300 !important;
+}
+
+.contact{
+    background: var(--black);
+    color: var(--whithe);
+    padding: 24px 14%;
+}
+
+.text-contacatame{
+    font-size: 14px;
+}
 /*Fin Section Contactame*/
 /*-------Fin CSS Index-------*/
 
 /*-------CSS About-------*/
+/**/
+.sobre-mi{
+    background: radial-gradient(52.55% 52.55% at 48.3% 6.56%, #2679F6 0%, #000000 100%);
+}
+/*Fin*/
 /*-------Fin CSS About-------*/
 
 /*-------CSS Project-------*/
