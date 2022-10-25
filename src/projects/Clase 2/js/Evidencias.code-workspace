@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../Portafolio"
+		},
+		{
+			"path": "../../../../../Desarrollo/Platzi/Yardsale"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Evidencias"
+	}
+}

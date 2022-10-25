@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Inicio Barra-->
+    <title>Hader Renteria</title>
+    <link rel="shortcut icon" href="../img/logo/logo.png" type="image/x-icon" sizes="32x32">
+    <!--Fin Barra-->
+    <!--Inicio Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--Fin Google Fonts-->
+    <!--Inicio links-->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/clase2.js"></script>
+    <script src="../js/calculadora.js"></script>
+    <!--Fin links-->
+</head>
+<body>
+    <nav id="menu">
+        <img src="../img/Logo/Logo(OFICIAL).png" alt="Logo menu" class="logo-menu-1">
+        <ul class="nav">
+            <li class="nav-item-1"><a href="../src/index.html">Inicio</a></li>
+            <li class="nav-item"><a href="../src/About.html">Acerca de mi</a></li>
+            <li class="nav-item"><a href="../src/proyectos.html">Proyectos</a></li>
+        </ul>
+        <a href="" class="nav-boton">Contáctame</a>
+    </nav>
+
+    <section id="seccion">
+        <div id="agrupaciones">
+
+            <div class="circulos">
+                <div class="circulo">
+                    <div class="info">
+                        <div>
+                            <label for="">Numero 1:</label>
+                            <input type="text" placeholder="2" id="caja-1">
+                        </div>
+                
+                        <div>
+                            <label for="">Numero 2:</label>
+                            <input type="text" placeholder="1" id="caja-2">
+                        </div>
+                
+                        <div>
+                            <button onclick="sumar()">Sumar</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="circulo">
+                    
+                    <div class="info">
+                        <div>
+                            <label for="">Numero 1:</label>
+                            <input type="text" placeholder="2" id="caja-3">
+                        </div>
+                
+                        <div>
+                            <label for="">Numero 2:</label>
+                            <input type="text" placeholder="2" id="caja-4">
+                        </div>
+                
+                        <div>
+                            <button onclick="multiplicar()">Multiplicar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="resultado">
+                    <label for="">Resultado:</label>
+                    <input type="text" placeholder="Aqui va el Resultado.." id="resultado">
+            </div>
+        </div>
+
+    </section>
+</body>
+</html>
