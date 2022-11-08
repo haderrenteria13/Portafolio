@@ -71,7 +71,7 @@
     left: 0;
     width: 0;
     height: 4px;
-    background: #2679F6;
+    background: var(--Blue);
     transition: .3s;
 }
 
@@ -100,7 +100,7 @@
     left: 0;
     width: 100%;
     height: 4px;
-    background: #2679F6;
+    background: var(--Blue);
     transition: .3s;
 }
 
@@ -112,7 +112,14 @@
 /*Footer*/
 .footer{
     color: var(--White);
+}
 
+.footer a{
+    transition: opacity .4s;
+}
+
+.footer a:hover{
+    opacity: .4;
 }
 
 .logo-footer img{
@@ -144,6 +151,10 @@ footer .social-link:nth-of-type(2){
 footer .social-link:nth-of-type(3){
     background-image: url(../img/icon-svg/github-icon.svg);
 }
+
+.social-link:hover{
+    opacity: .4;
+}
 /*Fin Footer*/
 
 /*Contenedor*/
@@ -166,6 +177,22 @@ footer .social-link:nth-of-type(3){
 .btn-dark{
     background: var(--Black) !important;
     border: var(--Black) !important;
+}
+
+.btn-primary:hover{
+    background: var(--Red) !important;
+    border: var(--Red) !important;
+}
+
+.btn-secondary:hover{
+    background: var(--Blue) !important;
+    border: var(--Blue) !important;
+}
+
+.btn-dark:hover{
+    background: var(--Whithe) !important;
+    border: var(--Whithe) !important;
+    color: var(--Black) !important;
 }
 /*Fin Botones*/
 
@@ -286,8 +313,7 @@ footer .social-link:nth-of-type(3){
 
 .step::after {
     content: "";
-    border-right: 2px solid var(--Blue);
-    opacity: .1;
+    border-right: 2px solid var(--Black-Light);
     height: 50px;
     position: absolute;
     top: 30px;
